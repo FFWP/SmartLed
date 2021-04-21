@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wifi/wifi"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index.png"
+      },
+      {
+        "pagePath": "pages/wifi/wifi",
+        "text": "智能配网",
+        "iconPath": "static/news.png",
+        "selectedIconPath": "static/news.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "DQ智能",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

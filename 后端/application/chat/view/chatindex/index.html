@@ -1,0 +1,75 @@
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>聊天</title>
+ <!--  <link href="__PUBLIC__/chat/css/bootstrap.min.css" rel="stylesheet">
+  <link href="__PUBLIC__/chat/css/style.css" rel="stylesheet"> -->
+  <!-- Include these three JS files: -->
+  
+</head>
+<body onload="connect();">
+    <div >
+        Welcome :)
+<div id="saywhatdiv"></div> 
+            <div >
+               			<br> </br> 
+               <form onsubmit="send(); return false;">
+                    
+                    <textarea  id="textarea"></textarea>
+                    <div ><input type="submit" value="Send" /></div>
+               </form>
+              
+            </div>
+           
+       
+    </div>
+    <script type="text/javascript">
+
+    var ws, saywhat,screen;
+
+    var screensaid=new Array();
+    // 连接服务端
+    function connect() {
+       // 创建websocket
+       ws = new WebSocket("ws://"+document.domain+":7272");
+       // 当socket连接打开时，输入用户名
+       // 当有消息时根据消息类型显示不同信息
+       ws.onmessage = onConnect;
+ 
+           //console.log("出现错误");
+      
+    }
+     // 服务端发来消息时
+    function onConnect(e)
+    {
+        //console.log(e.data);
+       screen = e.data;
+      //console.log(screen);
+     
+       screensaid.push(screen);
+      
+       document.getElementById("saywhatdiv").innerText=screensaid;
+       console.log(screensaid);
+    }
+  function send()
+    {
+      var input = document.getElementById("textarea");
+      saywhat = input.value
+      console.log(saywhat);
+        ws.send(':_____'+saywhat);
+        //console.log(e.data);
+       
+    }
+
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?077e877254cd5a9d0b1a34633c506ec2";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+
+
+  </script>
+</body>
+
+</html>

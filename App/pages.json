@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+	
+			}
+		}
+	   
+        ,{
+            "path" : "pages/wifi/wifi",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ledtmp/ledtmp",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/door/door",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+	    "color" : "#B5B5B5",
+	    "selectedColor" : "#000000",
+	    "borderStyle" : "white",
+	    "backgroundColor" : "#FFFFFF",
+	    "list" : [
+	        {
+				"pagePath":"pages/index/index",
+				"text":"主页",
+				"iconPath":"static/index.png",
+				"selectedIconPath":"static/index.png"
+	        },
+			{
+				"pagePath":"pages/wifi/wifi",
+				"text":"智能配网",
+				"iconPath":"static/news.png",
+				"selectedIconPath":"static/news.png"
+			}
+		
+	    ]
+	}
+
+
+}
