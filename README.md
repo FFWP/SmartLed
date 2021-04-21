@@ -10,9 +10,9 @@ APP用uniapp开发
 ------
 
 ## 演示截图
-<img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/1.png" width="500" height="1200" alt="演示"/><br/>
+<img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/1.png" width="550" height="1200" alt="演示"/><br/>
 <img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/2.jpg"  alt="演示"/><br/>
 <img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/3.png" alt="演示"/><br/>
 <img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/4.jpg"  alt="演示"/><br/>
-<img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/5.jpg" width="500" height="1200" alt="演示"/><br/>
+<img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/5.jpg" width="550" height="1200" alt="演示"/><br/>
 <img src="https://github.com/FFWP/SmartLed/blob/main/ScreenShot/6.jpg"  alt="演示"/><br/>
