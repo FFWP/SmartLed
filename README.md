@@ -1,10 +1,10 @@
 # 智能配网远程控制
 
 ------
-单片机STM32
-WiFi模块esp8266
-APP用uniapp开发
-后端：workerman thinkphp
+单片机STM32  
+WiFi模块esp8266  
+APP用uniapp开发  
+后端：workerman thinkphp  
 演示视频B站：——>[演示][1]
 
 ------
