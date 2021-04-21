@@ -5,7 +5,7 @@
 WiFi模块esp8266  
 APP用uniapp开发  
 后端：workerman thinkphp  
-演示视频B站：——><a href="https://www.bilibili.com/video/BV1SE411t76g" target="_blank"></a>
+演示视频B站：——><a href="https://www.bilibili.com/video/BV1SE411t76g" target="_blank">B站演示</a>
 
 ------
 
